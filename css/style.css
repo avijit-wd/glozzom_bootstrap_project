@@ -1,0 +1,78 @@
+body {
+  overflow-x: hidden; }
+
+.navbar .nav-link {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  letter-spacing: 0.1rem; }
+
+.navbar .active {
+  border-left: 3px solid #444; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-image-1 {
+  background-image: url("../img/image1.jpg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background-image: url("../img/image2.jpg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background-image: url("../img/image3.jpg");
+  background-size: cover; }
+
+#home-heading {
+  min-height: 240px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/lights.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }
+
+#video-play {
+  min-height: 200px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/media.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff; }
+  #video-play a {
+    color: #fff; }
+
+#page-header {
+  height: 200px;
+  background-image: url(../img/image1.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px; }
+
+.about-img {
+  margin-top: -50px;
+  height: 25rem;
+  width: 25rem;
+  border-radius: 50%; }
+
+#services .card h3:hover {
+  color: #aaa; }
+
+#faq .card {
+  border: #444; }
+
+#faq a {
+  color: #fff;
+  text-decoration: none; }
+
+#faq .card-header,
+#faq .card-body {
+  background-color: #333; }
+
+#main-footer {
+  background-color: black;
+  color: white; }
